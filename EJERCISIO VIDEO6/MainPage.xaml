@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCISIO_VIDEO6.MainPage">
+
+    <!--
+        EJERCISIO VIDEO 6
+
+        Fecha de creación: [24/06/2023]
+        Empresa: [DAVID]
+
+        Última modificación:
+        - Fecha: [24/06/2023]
+        - Descripción: [NO HAY MODIFICACIONES]
+        - Autor: [DAVID]
+    -->
+
+    <StackLayout>
+        <Entry Placeholder="Usuario"
+               MaxLength="10"
+               IsTextPredictionEnabled="True"
+               IsSpellCheckEnabled="True"
+               IsPassword="true"
+               Keyboard="Numeric"
+               CharacterSpacing="10"
+               TextChanged="Entry_TextChanged"
+               Completed="Entry_Completed"
+               x:Name="entry"></Entry>
+    </StackLayout>
+
+</ContentPage>
